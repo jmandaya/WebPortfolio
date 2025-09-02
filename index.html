@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Web Portfolio</title>
+    </head>
+    <body>
+     <nav>
+        <div class="left">
+          <a href="#home">My Portfolio</a>
+        </div>
+    
+        <input type="checkbox" id="menu-toggle" aria-hidden="true">
+        <label for="menu-toggle" class="hamburger" aria-hidden="true">☰</label>
+    
+        <div class="right">
+          <div class="navbarcontent">
+            <a href="#home">
+              <i class="fa-solid fa-house"></i>
+              <span>Home</span> 
+            </a>
+            <a href="#about">
+              <i class="fa-solid fa-address-card"></i>
+              <span>About</span>
+            </a>
+            <a href="#work">
+              <i class="fa-solid fa-briefcase"></i>
+              <span>Experience</span>
+            </a>
+            <a href="#projects">
+              <i class="fa-solid fa-folder-open"></i>
+              <span>Projects</span>
+            </a>    
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+          </div>
+        </div>
+     </nav>
+    
+     <main>
+        <!-- HOME -->
+      <section id="home" class="home">
+        <div class="text">
+          <h2>
+            Hi, I'm <span class="highlight">Michael Andaya</span>.
+          </h2>
+          <div class="typing-container" id="typing"></div>
+          <p>I’m passionate about creating solutions that enhance efficiency and make a real impact. With a strong interest in Software Development and IoT, and the knowledge I gained through college, projects, and internships, I aim to develop innovative technologies that solve real-world challenges.</p>
+          <div class="links">
+            <a href="mailto:jmeandaya@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jmeandaya" target="_blank" rel="noopener">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://andaya-jm-eportfolio.vercel.app/" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="files/ANDAYA, Jhon Michael - Resume.pdf" target="_blank" rel="noopener">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>View CV</span>
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/Hero2.jpg" alt="JM headshot" width="500">
+        </div>
+      </section>
+    
+       <section id="about" class="about-section">
+          <div class="about-container">
+            <div class="about-card">
+              <aside class="profile-column">
+                <div class="profile-card">
+                  <img src="images/Hero3.jpg" alt="Michael headshot" class="profile-img">
+    
+                  <div class="profile-info cards-grid">
+    
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="fa-solid fa-user"></i>
+                      </div>
+                      <div class="info-body">
+                        <div class="info-label">Name</div>
+                        <div class="info-value">Jhon Michael E. Andaya</div>
+                      </div>
+                    </div>
+    
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="fa-solid fa-map-marker-alt"></i>
+                      </div>
+                      <div class="info-body">
+                        <div class="info-label">Location</div>
+                        <div class="info-value">Calamba, Laguna</div>
+                      </div>
+                    </div>
+    
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <div class="info-body">
+                        <div class="info-label">Email</div>
+                        <div class="info-value"><a href="mailto:jmeandaya@gmail.com">jmeandaya@gmail.com</a></div>
+                      </div>
+                    </div>
+    
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <div class="info-body">
+                        <div class="info-label">Phone</div>
+                        <div class="info-value"><a href="tel:+639XXXXXXXXX">+63 949 132 6197</a></div>
+                      </div>
+                    </div>
+                  </div>    
+                </div>
+              </aside>   
+              <div class="about-text-column">
+                <h2>About Me</h2>
+                <div class="about-text">
+                  <p>I’m Jhon Michael E. Andaya, a recent B.S. Information Technology graduate from Mapúa Malayan Colleges Laguna with hands-on experience in developing web and software applications, and integrating microcontrollers such as Arduino, Wemos, and ESP32. I have a strong interest in IoT, emerging technologies, and software development.</p>
+                  <p>I specialize in building web applications and software solutions that enhance efficiency and create meaningful impact. Many of my projects involve integrating IoT devices like the ESP32 with web platforms, enabling real-time communication between hardware and the cloud. Through projects and internships, I’ve developed practical skills in creating scalable applications, designing user-friendly interfaces, and programming embedded systems.</p>
+                </div>
+                <hr class="about-divider" />   
+                <div class="interests">
+                  <h4 class="interests-title">Interests</h4>
+                  <div class="interests-list">
+                    <span class="interestss">Software Development</span>
+                    <span class="interestss">Backend Development</span>
+                    <span class="interestss">Internet of Things</span>
+                    <span class="interestss">Embedded Systems</span>
+                    <span class="interestss">Automation</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+      <section id="work" class="workxp-section" aria-label="Experience">
+        <div class="work-container">
+          <h2 class="work-title">My Experience</h2>
+          <div class="experience-card">
+            <input type="radio" name="xp-tab" id="xp-work" checked />
+            <input type="radio" name="xp-tab" id="xp-education" />
+            <input type="radio" name="xp-tab" id="xp-awards" />
+            <div class="experience-header">
+              <label for="xp-work" class="experience-tab">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Work Experience</span></label>
+              <label for="xp-education" class="experience-tab">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Education</span></label>
+              <label for="xp-awards" class="experience-tab">
+                <i class="fa-solid fa-award"></i>
+                <span>Awards & Certifications</span></label>
+            </div>
+            <div class="experience-body">
+              <div class="experience-panel panel-work">
+                <div class="experience-inner">
+                  <div class="work-card">
+                    <div class="work-content">
+                      <div class="work-header">
+                        <div class="work-info">
+                          <h2>Software Developer Intern</h2>
+                          <i class="fa-solid fa-briefcase"></i>
+                          <span>Distribution Solutions Philippines (DISTRIPHIL)</span>
+                        </div>
+                        <div class="work-meta">
+                          <div class="work-date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>Apr 2024 - Jul 2024</span>
+                          </div>
+                          <div class="work-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Calamba, Laguna</span></div>
+                        </div>
+                      </div>
+                      <ul class="work-description">
+                        <li>Developed a VBA Excel-based barcode printing system integrating a third-party barcode API and a portable sticker printer.</li>
+                        <li>Designed and deployed a Digital Return Slip Form system with barcode scanner integration, reducing processing errors.</li>
+                        <li>Developed a Digital Product Arrival Report System combining barcode scanning with vehicle information logging to improve warehouse compliance.</li>
+                      </ul>
+                      <div class="worktech-list">
+                        <span class="worktech">Visual Basic for Applications (VBA)</span>
+                        <span class="worktech">Microsoft Excel</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="experience-panel panel-education">
+                <div class="experience-inner">
+                  <div class="work-card">
+                    <div class="work-content">
+                      <div class="work-header">
+                        <div class="work-info">
+                          <h2>Bachelor of Science in Information Technology</h2>
+                          <i class="fa-solid fa-graduation-cap"></i>
+                          <span>Mapúa Malayan Colleges Laguna</span>
+                        </div>
+                        <div class="work-meta">
+                          <div class="work-date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>Aug 2020 - Jul 2025</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="worktech-list">
+                        <span class="worktech">Data Structures & Algorithms</span>
+                        <span class="worktech">Object-Oriented Programming</span>
+                        <span class="worktech">Networking</span>
+                        <span class="worktech">Database Management</span>
+                        <span class="worktech">Web Development</span>
+                        <span class="worktech">Software Development</span>
+                        <span class="worktech">System Analysis and Design</span>
+                        <span class="worktech">Microcontroller Programming</span>
+                        <span class="worktech">Internet of Things (IoT)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience-panel panel-education">
+                <div class="experience-inner">
+                  <div class="work-card">
+                    <div class="work-content">
+                      <div class="work-header">
+                        <div class="work-info">
+                          <h2>Senior High School - STEM (Science, Technology, Engineering, and Mathematics)</h2>
+                          <i class="fa-solid fa-graduation-cap"></i>
+                          <span>Mapúa Malayan Colleges Laguna</span>
+                        </div>
+                        <div class="work-meta">
+                          <div class="work-date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>2018 - 2020</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience-panel panel-education">
+                <div class="experience-inner">
+                  <div class="work-card">
+                    <div class="work-content">
+                      <div class="work-header">
+                        <div class="work-info">
+                          <h2>Junior High School</h2>
+                          <i class="fa-solid fa-graduation-cap"></i>
+                          <span>Don Bosco College Canlubang</span>
+                        </div>
+                        <div class="work-meta">
+                          <div class="work-date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>2014 - 2018</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+    
+              <div class="experience-panel panel-awards">
+                <div class="experience-inner">
+                  <div class="work-card">
+                    <div class="work-content">
+                      <div class="container cert-container">
+                        <div class="cert-grid">
+                          <div class="cert-card">
+                            <a class="cert-link" href="images/Certificates/NSE_1_Certification_page-0001.jpg" aria-label="Open IoT Foundation Course" title="Open IoT Foundation Course">
+                              <img class="cert-photo" src="images/Certificates/NSE_1_Certification_page-0001.jpg" alt="IoT cert">
+                            </a>
+                            <h3 class="cert-name">NSE 1 Network Security Associate</h3>
+                            <div class="cert-txt">
+                              <i class="fa-solid fa-building-columns"></i>
+                              <span>Fortinet</span>
+                            </div>
+                          </div>
+    
+                          <div class="cert-card">
+                            <a class="cert-link" href="images/Certificates/Programming for Beginners Using Python Certificate_pages-to-jpg-0001.jpg" aria-label="Open IProgramming for Beginners Using Python" title="Open Programming for Beginners Using Python">
+                              <img class="cert-photo" src="images/Certificates/DICT Programming for Beginners Using Python Certificate_pages-to-jpg-0001.jpg" alt="Programming for Beginners Using Python">
+                            </a>
+                            <h3 class="cert-name">Programming for Beginners Using Python</h3>
+                            <div class="cert-txt">
+                              <i class="fa-solid fa-building-columns"></i>
+                              <span>DICT</span>
+                            </div>
+                          </div>
+    
+                          <div class="cert-card">
+                            <a class="cert-link" href="images/Certificates/DICT Programming for Intermediate Users Using Python Certificate_pages-to-jpg-0001.jpg" aria-label="Open Programming for Intermediate Users Using Python" title="Open Programming for Intermediate Users Using Python">
+                              <img class="cert-photo" src="images/Certificates/DICT Programming for Intermediate Users Using Python Certificate_pages-to-jpg-0001.jpg" alt="Programming for Intermediate Users Using Python">
+                            </a>
+                            <h3 class="cert-name">Programming for Intermediate Users Using Python</h3>
+                            <div class="cert-txt">
+                              <i class="fa-solid fa-building-columns"></i>
+                              <span>DICT</span>
+                            </div>
+                          </div>
+    
+                          <div class="cert-card">
+                            <a class="cert-link" href="images/Certificates/DICT Learn Basic Statistics with Python Certificate_page-0001.jpg" aria-label="Open Learn Basic Statistics with Python" title="Learn Basic Statistics with Python">
+                              <img class="cert-photo" src="images/Certificates/DICT Learn Basic Statistics with Python Certificate_page-0001.jpg" alt="Learn Basic Statistics with Python">
+                            </a>
+                            <h3 class="cert-name">Learn Basic Statistics with Python</h3>
+                            <div class="cert-txt">
+                              <i class="fa-solid fa-building-columns"></i>
+                              <span>DICT</span>
+                            </div>
+                          </div>
+    
+                          <div class="cert-card">
+                            <a class="cert-link" href="images/Certificates/DICT Analyze Data with Python Certificate_page-0001.jpg" aria-label="Open Analyze Data with Python" title="Open Analyze Data with Python">
+                              <img class="cert-photo" src="images/Certificates/DICT Analyze Data with Python Certificate_page-0001.jpg" alt="Analyze Data with Python">
+                            </a>
+                            <h3 class="cert-name">Analyze Data with Python</h3>
+                            <div class="cert-txt">
+                              <i class="fa-solid fa-building-columns"></i>
+                              <span>DICT</span>
+                            </div>
+                          </div>
+    
+                          <div class="cert-card">
+                            <a class="cert-link" href="images/Certificates/DICT Visualize Data with Python Certificate_page-0001.jpg" aria-label="Open Visualize Data with Python " title="Open Visualize Data with Python ">
+                              <img class="cert-photo" src="images/Certificates/DICT Visualize Data with Python Certificate_page-0001.jpg" alt="Visualize Data with Python ">
+                            </a>
+                            <h3 class="cert-name">Visualize Data with Python</h3>
+                            <div class="cert-txt">
+                              <i class="fa-solid fa-building-columns"></i>
+                              <span>DICT</span>
+                            </div>
+                          </div>
+    
+                          <div class="cert-card">
+                            <a class="cert-link" href="images/Certificates/CodeChumAndayaJhonMichael-IT101-2LA52_240404_004516_page-0001.jpg" aria-label="Open CodeChum Python Course" title="Open CodeChum Python Course">
+                              <img class="cert-photo" src="images/Certificates/CodeChumAndayaJhonMichael-IT101-2LA52_240404_004516_page-0001.jpg" alt="CodeChum Python Course">
+                            </a>
+                            <h3 class="cert-name">CodeChum Python Course</h3>
+                            <div class="cert-txt">
+                              <i class="fa-solid fa-building-columns"></i>
+                              <span>CodeChum</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div> <!-- experience-body -->
+          </div> <!-- experience-card -->
+        </div> <!-- work-container -->
+      </section>
+    
+      <!-- PROJECTS -->
+      <section id="projects" class="projects-section" aria-label="Projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="project-grid">
+          <article class="project-card" tabindex="0" data-project-id="proj-1">
+            <div class="project-media">
+              <button class="carousel-btn prev" aria-label="Previous image">&lsaquo;</button>
+              <div class="slides">
+                <img src="images/Projects/capstoneproj1.png" class="slide active" alt="Capstone Project 1" />
+                <img src="images/Projects/capstoneproj2.png" class="slide" alt="Capstone Project 2" />
+                <img src="images/Projects/capstoneproj3.png" class="slide" alt="Capstone Project 3" />
+                <img src="images/Projects/capstoneproj4.png" class="slide" alt="Capstone Project 4" />
+                <img src="images/Projects/capstoneproj5.png" class="slide" alt="Capstone Project 5" />
+                <img src="images/Projects/capstoneproj6.png" class="slide" alt="Capstone Project 6" />
+              </div>
+              <button class="carousel-btn next" aria-label="Next image">&rsaquo;</button>
+            </div>
+    
+            <div class="project-body">
+              <h3 class="project-title">Room Signage using E-Paper Display (Capstone Project)</h3>
+              <div class="project-type">Web Application with IoT Integration</div>
+              <p class="project-desc-short">A web application and IoT-powered E-Paper signage system to improve classroom scheduling and information dissemination at Mapúa Malayan Colleges Laguna.</p>
+              <button class="see-more" aria-label="See more">Read more</button>
+              <p class="project-desc-full">A web application and IoT-powered E-Paper signage system to improve classroom scheduling and information dissemination at Mapúa Malayan Colleges Laguna. The web app featured modules for room reservation requests, approvals, and real-time schedule viewing, while the IoT system used ESP32 microcontrollers to display updated schedules on 7.5-inch E-Paper screens. The system has the capability enhance operational efficiency, reduced scheduling conflicts, and modernized the reservation and communication process across campus.</p>
+              <ul class="key-features">
+                <li>Faculty members and staffs can reserve rooms, view availability, and manage booking requests in real time.</li>
+                <li>Reservation requests go through an approval process, ensuring proper authorization before confirmation.</li>
+                <li>The E-paper display has minimal power consumption and shows real-time classroom schedule updates.</li>
+              </ul>
+              <div class="tech-list">
+                <span class="tech">ASP.NET</span>
+                <span class="tech">C#</span>
+                <span class="tech">HTML</span>
+                <span class="tech">CSS</span>
+                <span class="tech">JavaScript</span>
+                <span class="tech">Bootstrap</span>
+                <span class="tech">Azure SQL</span>
+                <span class="tech">PHP</span>
+                <span class="tech">C++ (Arduino)</span>
+                <span class="tech">ESP32 (Microcontroller)</span>
+              </div>
+            </div>
+          </article>
+    
+          <article class="project-card" tabindex="0" data-project-id="proj-2">
+            <div class="project-media">
+              <button class="carousel-btn prev" aria-label="Previous image">&lsaquo;</button>
+              <div class="slides">
+                <img src="images/Projects/ccisproj1.webp" class="slide active" alt="CCIS Project 1" />
+                <img src="images/Projects/ccisproj2.webp" class="slide" alt="CCIS Project 2" />
+              </div>
+              <button class="carousel-btn next" aria-label="Next image">&rsaquo;</button>
+            </div>
+    
+            <div class="project-body">
+              <h3 class="project-title">Faculty Availability and Announcement Display System</h3>
+              <div class="project-type">Web Application with IoT Integration</div>
+              <p class="project-desc-short">A web application that communicates with an E-Paper Display via ESP32 to display faculty members' names, their availability, and announcements.</p>
+              <button class="see-more" aria-label="See more">Read more</button>
+              <p class="project-desc-full">A Web application that communicates with an E-Paper Display via ESP32 to display faculty members'names, real-time availability statuses (e.g., in, out, lunch break, on leave, in a meeting), and announcements. The system allows administrators to easily update and control the displayed content remotely through the Web Application.</p>
+              
+              <ul class="key-features">
+                <li>Display real-time faculty availability and announcements.</li>
+                <li>Enables wireless communication between the web app and the e-paper display for seamless updates.</li>
+                <li>The display is energy-efficient as it consumes minimal power, and the information remains visible even without a power source.</li>
+              </ul>
+              <div class="tech-list">
+                <span class="tech">ASP.NET</span>
+                <span class="tech">C#</span>
+                <span class="tech">HTML</span>
+                <span class="tech">CSS</span>
+                <span class="tech">JavaScript</span>
+                <span class="tech">MS SQL</span>
+                <span class="tech">C++ (Arduino)</span>
+                <span class="tech">ESP32 (Microcontroller)</span>
+              </div>
+            </div>
+          </article>
+    
+          <article class="project-card" tabindex="0" data-project-id="proj-3">
+            <div class="project-media">
+              <button class="carousel-btn prev" aria-label="Previous image">&lsaquo;</button>
+              <div class="slides">
+                <img src="images/Projects/firedetectionproj.png" class="slide active" alt="IoT Plant Monitor 1" />
+              </div>
+              <button class="carousel-btn next" aria-label="Next image">&rsaquo;</button>
+            </div>
+    
+            <div class="project-body">
+              <h3 class="project-title">Fire Detection System</h3>
+    
+              <p class="project-desc-short">A fire detection system that uses an IR sensor to detect fire...</p>
+              <button class="see-more" aria-label="See more">Read more</button>
+              <p class="project-desc-full">A fire detection system that uses an IR sensor to detect fire, a Wemos microcontroller to log incidents into a database, recording the date, day, time, and duration of each fire eventand, and a web interface to display the recorded data in real time.</p>
+              <ul class="key-features">
+                <li>Accurately identifies fire presence using an infrared sensor.</li>
+                <li>Records the date, day, time, and duration of fire events directly to the database and display it to a webpage real-time.</li>
+              </ul>
+              <div class="tech-list">
+                <span class="tech">HTML</span>
+                <span class="tech">PHP</span>
+                <span class="tech">MySQL</span>
+                <span class="tech">C++ (Arduino)</span>
+                <span class="tech">WeMos D1 Mini (Microcontroller)</span>
+                <span class="tech">Infrared Radiation Sensor</span>
+              </div>
+            </div>
+          </article>
+    
+          <article class="project-card" tabindex="0" data-project-id="proj-4">
+            <div class="project-media">
+              <button class="carousel-btn prev" aria-label="Previous image">&lsaquo;</button>
+              <div class="slides">
+                <img src="images/Projects/brainyproj.png" class="slide active" alt="Brainy 1" />
+              </div>
+              <button class="carousel-btn next" aria-label="Next image">&rsaquo;</button>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Brainy: A Filipino Riddle Game</h3>
+              <p class="project-desc-short">A console-based application developed in C# that lets users solve traditional Filipino riddles...</p>
+              <button class="see-more" aria-label="See more">Read more</button>
+              <p class="project-desc-full">A console-based application developed in C# that lets users solve traditional Filipino riddles (bugtong) by selecting the correct answer from four multiple-choice options.</p>
+              <ul class="key-features">
+                <li>Showcases classic Filipino riddles for cultural learning and fun.</li>
+                <li>Simple and engaging text-based gameplay.</li>
+                <li>Keeps track of correct answers to measure performance.</li>
+              </ul>
+              <div class="tech-list">
+                <span class="tech">C#</span>
+                <span class="tech">Object-Oriented Programming</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    
+      <section id="skills" class="skills-section" aria-label="Skills">
+        <h2 class="skills-title">My Skills</h2>
+        <div class="skills-intro">
+          <p>These are the technical skills I have developed throughout my academic journey and internship experience, where I worked on projects that strengthened my foundation in software development, web development, backend development,and IoT applications.</p>
+        </div>
+        
+        <div class="skills-layout">
+          <div class="skills-desc plain">
+            <div class="skills-desc-row">
+              <div class="skills-text">
+                <img src="images/Skills/man.png"  alt="IoT Plant Monitor 1" />
+              </div>
+            </div>
+          </div>
+    
+          <div class="skills-right">
+            <div class="skills-card">
+              <input type="radio" name="skill-tab" id="skill-web" checked />
+              <input type="radio" name="skill-tab" id="skill-prog" />
+              <input type="radio" name="skill-tab" id="skill-db" />
+              <input type="radio" name="skill-tab" id="skill-iot" />
+    
+              <div class="skills-tabs">
+                <label for="skill-web" class="skill-tab">Web & Mobile Development</label>
+                <label for="skill-prog" class="skill-tab">Programming Language</label>
+                <label for="skill-db" class="skill-tab">Database</label>
+                <label for="skill-iot" class="skill-tab">Tools</label>
+              </div>
+    
+              <div class="skills-panels">
+                <div class="skill-panel panel-web">
+                  <div class="icon-grid">
+                    <button class="tech-icon" aria-label="HTML">
+                      <span class="icon" style="background-image:url('images/Skills/html.webp')"></span>
+                      <span class="icon-label">HTML</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="CSS">
+                      <span class="icon" style="background-image:url('images/Skills/css.webp')"></span>
+                      <span class="icon-label">CSS</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="JavaScript">
+                      <span class="icon" style="background-image:url('images/Skills/javascript.webp')"></span>
+                      <span class="icon-label">JavaScript</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="ASP.NET">
+                      <span class="icon" style="background-image:url('images/Skills/asp.webp')"></span>
+                      <span class="icon-label">ASP.NET</span>
+                    </button>
+                     <button class="tech-icon" aria-label="Xamarin">
+                      <span class="icon" style="background-image:url('images/Skills/xamarin.webp')"></span>
+                      <span class="icon-label">Xamarin</span>
+                    </button>
+                  </div>
+                </div>
+    
+                <div class="skill-panel panel-prog">
+                  <div class="icon-grid">
+                    <button class="tech-icon" aria-label="Python">
+                      <span class="icon" style="background-image:url('images/Skills/python.webp')"></span>
+                      <span class="icon-label">Python</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="C#">
+                      <span class="icon" style="background-image:url('images/Skills/csharp.webp')"></span>
+                      <span class="icon-label">C#</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="C++">
+                      <span class="icon" style="background-image:url('images/Skills/cpls.webp')"></span>
+                      <span class="icon-label">C++</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="PHP">
+                      <span class="icon" style="background-image:url('images/Skills/php.webp')"></span>
+                      <span class="icon-label">PHP</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="VBA">
+                      <span class="icon" style="background-image:url('images/Skills/vba.webp')"></span>
+                      <span class="icon-label">Visual Basic for Applications</span>
+                    </button>
+                  </div>
+                </div>
+    
+                <div class="skill-panel panel-db">
+                  <div class="icon-grid">
+                    <button class="tech-icon" aria-label="Microsoft SQL">
+                      <span class="icon" style="background-image:url('images/Skills/mssql.webp')"></span>
+                      <span class="icon-label">MS SQL</span>
+                    </button>
+                    <button class="tech-icon" aria-label="MySQL">
+                      <span class="icon" style="background-image:url('images/Skills/mysql.webp')"></span>
+                      <span class="icon-label">MySQL</span>
+                    </button>
+                    <button class="tech-icon" aria-label="Azure SQL">
+                      <span class="icon" style="background-image:url('images/Skills/azure.webp')"></span>
+                      <span class="icon-label">Azure SQL</span>
+                    </button>
+                    <button class="tech-icon" aria-label="MS Access">
+                      <span class="icon" style="background-image:url('images/Skills/msaccess.png')"></span>
+                      <span class="icon-label">MS Access</span>
+                    </button>
+                  </div>
+                </div>
+    
+                <div class="skill-panel panel-iot">
+                  <div class="icon-grid">
+                    <button class="tech-icon" aria-label="Arduino IDE">
+                      <span class="icon" style="background-image:url('images/Skills/arduino2.webp')"></span>
+                      <span class="icon-label">Arduino IDE</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="Figma">
+                      <span class="icon" style="background-image:url('images/Skills/figma.webp')"></span>
+                      <span class="icon-label">Figma</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="Xampp">
+                      <span class="icon" style="background-image:url('images/Skills/xampp.png')"></span>
+                      <span class="icon-label">Xampp</span>
+                    </button>
+    
+                    <button class="tech-icon" aria-label="VS">
+                      <span class="icon" style="background-image:url('images/Skills/vs.png')"></span>
+                      <span class="icon-label">Visual Studio</span>
+                    </button>
+                    <button class="tech-icon" aria-label="VS Code">
+                      <span class="icon" style="background-image:url('images/Skills/vscode.png')"></span>
+                      <span class="icon-label">Visual Studio Code</span>
+                    </button>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+     </main>
+    
+      <!-- Project Modal -->
+      <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-overlay" data-modal-close></div>
+    
+        <div class="modal-panel" role="document" aria-labelledby="modal-title" tabindex="-1">
+          <button class="modal-close" aria-label="Close modal" data-modal-close>&times;</button>
+    
+          <div class="modal-content">
+            <div class="modal-media">
+              <button class="carousel-btn prev" aria-label="Previous image">&lsaquo;</button>
+              <div class="modal-slides"></div>
+              <button class="carousel-btn next" aria-label="Next image">&rsaquo;</button>
+            </div>
+    
+            <div class="modal-body">
+              <h2 id="modal-title" class="modal-title"></h2>
+              <p class="modal-desc"></p>
+    
+              <h4>Key features</h4>
+              <ul class="modal-features"></ul>
+    
+              <h4>Languages & tools</h4>
+              <div class="modal-tech"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Certificate modal -->
+      <div id="cert-modal" class="cert-modal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="cert-modal-overlay" data-modal-close></div>
+    
+        <div class="cert-modal-panel" role="document" tabindex="-1">
+          <button class="cert-modal-close" aria-label="Close certificate">&times;</button>
+    
+          <div class="cert-modal-content">
+            <img class="cert-modal-img" src="" alt="">
+            <div class="cert-modal-caption" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    
+     <script src="jvscript.js"></script>
+    
+    </body>
+    </html>
