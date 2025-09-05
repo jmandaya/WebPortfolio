@@ -1412,13 +1412,12 @@
     display: none !important;
   }
 
+ .skills-layout {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
   .skills-right {
-    width: 100%;               /* take full width */
-    display: flex;
-    flex-direction: column;
-    align-items: center;       /* center horizontally */
-    justify-content: center;   /* center vertically */
-    margin: 0 auto;            /* center in page */
+    max-width: 500px;
   }
 
   .skills-tabs {
@@ -1595,13 +1594,12 @@
     display: none;
   }
 
+  .skills-layout {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
   .skills-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    width: 100%;
+    max-width: 100%;
   }
 
   .skills-tabs {
