@@ -23,7 +23,7 @@
 
     // ---------- Typing ----------
     function initTyping() {
-      const texts = ["B.S. Information Technology Graduate", "Aspiring Software Developer", "IoT Enthusiast"];
+      const texts = ["B.S. Information Technology Graduate", "Aspiring Software Engineer", "IoT Enthusiast"];
       let count = 0;
       let index = 0;
       let isDeleting = false;
@@ -529,4 +529,5 @@ const capstonevid = document.getElementById('capstonevid');
   capstonevid.onvolumechange = () => {
     capstonevid.muted = true;
     capstonevid.volume = 0;
+
   };
