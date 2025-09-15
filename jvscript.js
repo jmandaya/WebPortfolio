@@ -23,7 +23,7 @@
 
     // ---------- Typing ----------
     function initTyping() {
-      const texts = ["B.S. Information Technology Graduate", "Aspiring Software Engineer", "IoT Enthusiast"];
+      const texts = ["B.S. Information Technology Graduate", "IoT Enthusiast"];
       let count = 0;
       let index = 0;
       let isDeleting = false;
@@ -531,3 +531,4 @@ const capstonevid = document.getElementById('capstonevid');
     capstonevid.volume = 0;
 
   };
+
